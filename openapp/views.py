@@ -22,7 +22,7 @@ from django.contrib import messages
 
 client = OpenAI(
     # This is the default and can be omitted
-    api_key=os.getenv("OPENAI_API_KEY"),
+    api_key="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",
 )
 
 

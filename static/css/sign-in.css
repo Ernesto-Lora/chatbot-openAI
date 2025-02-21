@@ -14,6 +14,9 @@ body {
 .form-signin {
   max-width: 330px;
   padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .form-signin .form-floating:focus-within {
@@ -26,7 +29,11 @@ body {
   border-bottom-left-radius: 0;
 }
 
-
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
 
 .bd-placeholder-img {
   font-size: 1.125rem;
