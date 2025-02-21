@@ -6,7 +6,7 @@ The application comes with Login, Logout, and Sign up pages, which allow users t
 
 Once a user inputs a message via Telegram or the web interface, the Django application uses the OpenAI API to generate a response, which is then sent back to the user via the same channel. The application's integration with the OpenAI API allows for a wide range of possible use cases, from customer service chatbots to intelligent assistants for websites and apps.
 
-![app](app.jpg)
+![app](app.png)
 
 The code is written in Python, using the Django web framework and the OpenAI API for natural language processing. The repository includes all the necessary files to run the application, as well as documentation on how to set it up and use it.
 
